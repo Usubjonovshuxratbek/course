@@ -18,10 +18,10 @@ function About() {
               <span>creative leader</span>
               <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
               <div className="social-media">
-                <Link to='/'><i class="bi bi-facebook"></i></Link>
-                <Link to='/'><i class="bi bi-twitter"></i></Link>
-                <Link to='/'><i class="bi bi-instagram"></i></Link>
-                <Link to='/'><i class="bi bi-telegram"></i></Link>
+                <Link to='/'><i className="bi bi-facebook"></i></Link>
+                <Link to='/'><i className="bi bi-twitter"></i></Link>
+                <Link to='/'><i className="bi bi-instagram"></i></Link>
+                <Link to='/'><i className="bi bi-telegram"></i></Link>
               </div>
             </div>
             <div className="card">
@@ -30,10 +30,10 @@ function About() {
               <span>creative leader</span>
               <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
               <div className="social-media">
-                <Link to='/'><i class="bi bi-facebook"></i></Link>
-                <Link to='/'><i class="bi bi-twitter"></i></Link>
-                <Link to='/'><i class="bi bi-instagram"></i></Link>
-                <Link to='/'><i class="bi bi-telegram"></i></Link>
+                <Link to='/'><i className="bi bi-facebook"></i></Link>
+                <Link to='/'><i className="bi bi-twitter"></i></Link>
+                <Link to='/'><i className="bi bi-instagram"></i></Link>
+                <Link to='/'><i className="bi bi-telegram"></i></Link>
               </div>
             </div>
             <div className="card">
@@ -42,10 +42,10 @@ function About() {
               <span>programming guru</span>
               <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
               <div className="social-media">
-                <Link to='/'><i class="bi bi-facebook"></i></Link>
-                <Link to='/'><i class="bi bi-twitter"></i></Link>
-                <Link to='/'><i class="bi bi-instagram"></i></Link>
-                <Link to='/'><i class="bi bi-telegram"></i></Link>
+                <Link to='/'><i className="bi bi-facebook"></i></Link>
+                <Link to='/'><i className="bi bi-twitter"></i></Link>
+                <Link to='/'><i className="bi bi-instagram"></i></Link>
+                <Link to='/'><i className="bi bi-telegram"></i></Link>
               </div>
             </div>
           </div>

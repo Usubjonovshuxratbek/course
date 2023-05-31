@@ -11,14 +11,12 @@ function Course() {
                 <div className="course__inner">
                     <div className="right">
                         <Fade left>
-                        <h2>
                             <h3>Each course of the program comprises:</h3>
                             <h4>Tech Skills</h4>
                             <p>We help businesses to innovate and grow by strengthening their ideas with our customized software solutions for multiple industries which includes healthcare, blockchain, education, insurance and many more</p>
                             <Fade bottom>
                                 <Link to='/'>lear more</Link>
                             </Fade>
-                        </h2>
                         </Fade>
                     </div>
                     <div className="center">
