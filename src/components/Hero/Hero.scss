@@ -1,0 +1,135 @@
+.hero {
+    height: 834px;
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/69f692fba32652d283a62eee/vccvv-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+
+    .hero__inner {
+        .title {
+            width: 680px;
+            font-size: 3.75rem;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 150px;
+            color: #243f56 !important;
+
+            span {
+                font-weight: 700;
+                display: block;
+            }
+        }
+
+        .text {
+            line-height: 2;
+            font-style: italic;
+            font-size: 1.125rem;
+            width: 568px;
+            font-weight: 400;
+            text-align: center;
+            margin: 20px auto 0;
+        }
+
+        .hero-link {
+            font-style: normal;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            display: inline-block;
+            margin: 33px 440px 0 445px;
+            padding: 20px 45px;
+            border-radius: 50px;
+            letter-spacing: 3px;
+            border: 4px solid #4fb291;
+            color: #4fb291;
+        }
+
+        .hero-link:hover {
+            color: #ffffff;
+            background-color: #4fb291;
+        }
+
+        p {
+            line-height: 2;
+            font-style: italic;
+            font-size: 1.125rem;
+            width: 568px;
+            font-weight: 400;
+            text-align: center;
+            margin: 35px auto 0;
+
+            a {
+                vertical-align: baseline;
+                white-space: normal;
+                text-align: inherit;
+                color: #111111;
+                border-bottom: 1px solid #111111
+            }
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .hero {
+        .hero__inner {
+            .title {
+                width: 340px;
+                font-size: 2.25rem;
+                font-family: Montserrat, sans-serif;
+                font-weight: 400;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 150px;
+                margin-top: -100px;
+                color: #243f56 !important;
+    
+                span {
+                    font-weight: 700;
+                    display: block;
+                }
+            }
+    
+            .text {
+                line-height: 2;
+                font-style: italic;
+                font-size: 18px;
+                width: 340px;
+                font-weight: 400;
+                text-align: center;
+                margin: 20px auto 0;
+            }
+
+            .hero-link {
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                display: inline-block;
+                margin: 34px 45px 0 45px;
+                padding: 20px 45px;
+                border-radius: 50px;
+                border: 4px solid #4fb291;
+                letter-spacing: 3px;
+                color: #4fb291;
+            }
+    
+            p {
+                line-height: 2;
+                font-style: italic;
+                font-size: 18px;
+                width: 340px;
+                font-weight: 400;
+                text-align: center;
+    
+                a {
+                    vertical-align: baseline;
+                    white-space: normal;
+                    text-align: inherit;
+                    color: #111111;
+                    border-bottom: 1px solid #111111
+                }
+            }
+        }
+    }
+}

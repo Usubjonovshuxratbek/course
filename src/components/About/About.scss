@@ -1,0 +1,163 @@
+.about {
+    margin-top: 50px;
+
+    h2 {
+        font-family: Montserrat, sans-serif !important;
+        font-style: normal;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        color: #111111;
+
+        span {
+            display: block;
+            color: #4fb291;
+        }
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+
+        .card {
+            img {
+                width: 240px;
+                height: 240px;
+                border-radius: 20px;
+                object-fit: cover;
+                margin: 0 40px;
+            }
+
+            h3 {
+                font-family: Montserrat,sans-serif;
+                font-style: normal;
+                font-size: 24px;
+                font-weight: 600;
+                margin-top: 20px;
+                text-align: center;
+                color: #111111;
+            }
+
+            span {
+                font-style: normal;
+                font-size: 1.125rem;
+                line-height: 1.8;
+                display: block;
+                text-align: center;
+                font-weight: 700;
+                margin-top: 12px;
+                color: #4fb291 !important;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                font-style: normal;
+                width: 320px;
+                height: 87px;
+                text-align: center;
+                color: #111111;
+            }
+
+            .social-media {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    i {
+                        font-style: normal;
+                        font-size: 25px;
+                        font-weight: 400;
+                        display: inline-block;
+                        margin: 0 10px;
+                        color: #4fb291;
+                    }
+                }
+            }
+        }
+    }
+
+    p {
+        line-height: 2;
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 45px;
+        text-align: center;
+
+        a {
+            vertical-align: baseline;
+            white-space: normal;
+            text-align: inherit;
+            color: #111111;
+            border-bottom: 1px solid #111111
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .about {
+        margin-top: 80px;
+    
+        h2 {
+            font-family: Montserrat, sans-serif !important;
+            font-style: normal;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 40px;
+            text-align: center;
+            color: #111111;
+    
+            span {
+                display: block;
+                color: #4fb291;
+            }
+        }
+    
+        .cards {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+    
+            .card {
+                margin-top: 50px;
+    
+                .social-media {
+                    margin-top: 30px;
+    
+                    a {
+                        i {
+                            font-style: normal;
+                            font-size: 25px;
+                            font-weight: 400;
+                            display: inline-block;
+                            margin: 0 10px;
+                            color: #4fb291;
+                        }
+                    }
+                }
+            }
+        }
+    
+        p {
+            line-height: 2;
+            font-style: italic;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 45px;
+            text-align: center;
+    
+            a {
+                vertical-align: baseline;
+                white-space: normal;
+                text-align: inherit;
+                color: #111111;
+                border-bottom: 1px solid #111111
+            }
+        }
+    }
+}

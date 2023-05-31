@@ -1,0 +1,154 @@
+.course {
+    margin-top: 80px;
+
+    .course__inner {
+        display: flex;
+        justify-content: space-between;
+
+        .right {
+            width: 380px;
+
+            h3 {
+                font-style: normal;
+                font-size: 1.875rem;
+                font-weight: 600;
+                color: #4fb291 !important;
+            }
+
+            h4 {
+                font-style: normal;
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-top: 30px;
+            }
+
+            p {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 35px;
+                margin-top: 20px;
+            }
+
+            a {
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                display: inline-block;
+                padding: 20px 45px;
+                margin-top: 41px;
+                border-radius: 50px;
+                background-color: #4fb291;
+                color: #ffffff;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+
+            a:hover {
+                background-color: #333;
+            }
+        }
+
+        .center {
+            img {
+                width: 320px;
+                height: 320px;
+                object-fit: cover;
+                margin-top: 50px;
+            }
+
+            p {
+                line-height: 2;
+                font-style: italic;
+                font-size: 18px;
+                width: 340px;
+                font-weight: 400;
+                text-align: center;
+    
+                a {
+                    vertical-align: baseline;
+                    white-space: normal;
+                    text-align: inherit;
+                    color: #111111;
+                }
+            }
+        }
+
+        .left {
+            .block-1 {
+                margin-top: 50px;
+
+                h2 {
+                    font-style: normal;
+                    font-size: 45px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: #4fb291;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-align: center;
+                    margin-top: 17px;
+                }
+
+                p {
+                    font-family: 'Open Sans',sans-serif;
+                    font-style: italic;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #111111;
+                    margin-top: 24px;
+                    text-align: center;
+                    width: 300px;
+                }
+            }
+
+            .block-2 {
+                margin-top: 20px;
+
+                h2 {
+                    font-style: normal;
+                    font-size: 45px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: #4fb291;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-align: center;
+                    margin-top: 17px;
+                }
+
+                p {
+                    font-family: 'Open Sans',sans-serif;
+                    font-style: italic;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #111111;
+                    margin-top: 24px;
+                    text-align: center;
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:0) and (max-width: 428px) {
+    .course {
+        margin-top: 80px;
+    
+        .course__inner {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

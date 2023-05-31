@@ -1,0 +1,199 @@
+.coaching {
+    margin-top: 60px;
+    width: 100%;
+    height: 636px;
+    background-image: linear-gradient(0deg, rgba(36, 63, 86, 0.85), rgba(36, 63, 86, 0.85)), url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2cc1a632c8c5511c86638369/jhhhhhh.jpg');
+    background-position: 50% 50%;
+
+    .coaching__inner {
+        padding-top: 100px;
+
+        .title {
+            font-style: normal;
+            font-size: 3.75rem;
+            font-weight: 700;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 760px;
+            height: 64px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            button {
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                display: inline-block;
+                padding: 20px 45px;
+                border-radius: 50px;
+                background-color: #4fb291;
+                color: #ffffff;
+                border: none;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+
+            button:hover {
+                color: #4fb291;
+                background-color: #ffffff;
+            }
+
+            a {
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                display: inline-block;
+                padding: 20px 45px;
+                margin-left: 25px;
+                border-radius: 50px;
+                background-color: transparent;
+                border: 4px solid #ffffff;
+                color: #ffffff;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+
+            a:hover {
+                color: #4fb291;
+                background-color: #ffffff;
+            }
+        }
+
+        p {
+            line-height: 2;
+            font-style: italic;
+            font-size: 1.125rem;
+            width: 568px;
+            font-weight: 400;
+            text-align: center;
+            margin: 45px auto 0;
+            color: #ffffff;
+
+            a {
+                vertical-align: baseline;
+                white-space: normal;
+                text-align: inherit;
+                color: #ffffff;
+                border-bottom: 1px solid #ffffff
+            }
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .coaching {
+        margin-top: 20px;
+        width: 100%;
+        height: 636px;
+        background-image: linear-gradient(0deg, rgba(36, 63, 86, 0.85), rgba(36, 63, 86, 0.85)), url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2cc1a632c8c5511c86638369/jhhhhhh.jpg');
+        background-position: 50% 50%;
+    
+        .coaching__inner {
+            padding-top: 70px;
+    
+            .title {
+                font-style: normal;
+                font-size: 2rem;
+                font-weight: 600;
+                text-align: center;
+                color: #ffffff;
+            }
+    
+            .text {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                margin: 0 auto;
+                margin-top: 30px;
+                width: 300px;
+                text-align: center;
+                color: #ffffff;
+            }
+    
+            .btns {
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+    
+                button {
+                    font-style: normal;
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+                    display: inline-block;
+                    padding: 20px 45px;
+                    border-radius: 50px;
+                    background-color: #4fb291;
+                    color: #ffffff;
+                    border: none;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                }
+    
+                button:hover {
+                    color: #4fb291;
+                    background-color: #ffffff;
+                }
+    
+                a {
+                    font-style: normal;
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+                    display: inline-block;
+                    padding: 20px 45px;
+                    margin: 30px 0 0 0;
+                    border-radius: 50px;
+                    background-color: transparent;
+                    border: 4px solid #ffffff;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                }
+    
+                a:hover {
+                    color: #4fb291;
+                    background-color: #ffffff;
+                }
+            }
+    
+            p {
+                line-height: 2;
+                font-style: italic;
+                font-size: 1.125rem;
+                width: 320px;
+                font-weight: 400;
+                text-align: center;
+                margin: 55px auto 0;
+                color: #ffffff;
+    
+                a {
+                    vertical-align: baseline;
+                    white-space: normal;
+                    text-align: inherit;
+                    color: #ffffff;
+                    border-bottom: 1px solid #ffffff
+                }
+            }
+        }
+    }
+}

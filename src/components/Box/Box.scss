@@ -1,0 +1,95 @@
+.box {
+    width: 100%;
+    min-height: 553px;
+    color: #ffffff;
+    background-color: #243f56;
+    margin-top: 60px;
+
+    .box-inner {
+        padding-top: 100px;
+
+        h2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            margin: 41px 217px 0 217px;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        .link {
+            font-style: normal;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            display: inline-block;
+            margin: 33px 450px 0 455px;
+            padding: 20px 45px;
+            border-radius: 50px;
+            border: none;
+            background-color: #4fb291;
+            color: #ffffff;
+        }
+
+        .link:hover {
+            background-color: #ffffff;
+            color: #4fb291;
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .box {
+        width: 100%;
+        height: 653px;
+        color: #ffffff;
+        background-color: #243f56;
+        margin-top: 60px;
+    
+        .box-inner {
+            padding-top: 60px;
+    
+            h2 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                text-align: center;
+            }
+    
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                margin: 21px 0 0 0;
+                text-align: center;
+                line-height: 30px;
+            }
+    
+            .link {
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                display: inline-block;
+                margin: 53px 65px 0 65px;
+                padding: 20px 45px;
+                border-radius: 50px;
+                border: none;
+                background-color: #4fb291;
+                color: #ffffff;
+            }
+    
+            .link:hover {
+                background-color: #ffffff;
+                color: #4fb291;
+            }
+        }
+    }
+}
